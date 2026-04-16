@@ -1,3 +1,17 @@
+# Capítulo III: Requirements Specification
+
+## 3.1 To-Be Scenario Mapping
+
+### To-Be Scenario Mapping – Usuario Rural (OffGrid Messenger)
+
+<img width="1561" height="502" alt="image" src="https://github.com/user-attachments/assets/ae4c5b19-29cd-478a-9f9a-e5ad557ec1ef" />
+
+### To-Be Scenario Mapping – Equipo de Emergencia
+
+<img width="1536" height="493" alt="image" src="https://github.com/user-attachments/assets/fb6e2e25-e445-4a88-901a-5626a9167d71" />
+
+LINK MIROBOARD: https://miro.com/app/board/uXjVGh3DVhg=/?share_link_id=353512440400
+
 ## 3.2 User Stories
 
 ### Segmentos objetivo
@@ -99,4 +113,5 @@
 | 36 | US-30 | Contacto | Como visitante, deseo contactar o mostrar interés, para obtener más información. | 2 |
 
 Trello Link: https://trello.com/invite/b/69e039aa6ed1e43060410917/ATTIb801d16fcecd920a4b1b714c5b7dd64b45A2AB05/offgridmessenger
+
 <img width="1919" height="799" alt="image" src="https://github.com/user-attachments/assets/e67ab4d6-46f5-409e-abf8-eab600011350" />
