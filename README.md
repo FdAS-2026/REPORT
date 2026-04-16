@@ -97,3 +97,6 @@
 | 34 | US-28 | Ver funcionamiento | Como visitante, deseo entender cómo funciona el sistema, para conocer su tecnología. | 3 |
 | 35 | US-29 | Diseño responsive | Como visitante, deseo visualizar la página en cualquier dispositivo, para acceder fácilmente. | 2 |
 | 36 | US-30 | Contacto | Como visitante, deseo contactar o mostrar interés, para obtener más información. | 2 |
+
+Trello Link: https://trello.com/invite/b/69e039aa6ed1e43060410917/ATTIb801d16fcecd920a4b1b714c5b7dd64b45A2AB05/offgridmessenger
+<img width="1919" height="799" alt="image" src="https://github.com/user-attachments/assets/e67ab4d6-46f5-409e-abf8-eab600011350" />
