@@ -1,32 +1,50 @@
 <div align="center">
 
-<img src="https://marketingperu.beglobal.biz/wp-content/uploads/2025/01/logo-upc-png-transparente-1.png" width="120" alt="Logo UPC"/>
+<img src="https://marketingperu.beglobal.biz/wp-content/uploads/2025/01/logo-upc-png-transparente-1.png" width="160" alt="Logo UPC"/>
 
 <br>
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+# **UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**
 
-### 17949 - Fundamentos de Arquitectura de Software
-
-<br>
-
-**Docente:**
-**Jorge Luis Delgado**
+### **Facultad de Ingeniería**
+### **Carrera de Ingeniería de Software**
 
 <br>
 
-**Integrantes:**
 
-Juan Carlos Angulo Abud - u202317692
-<br>
-Renzo Paul Retuerto Zapata - u202320328
-<br>
-Renzo Sebastián Uribe Livia - u202311745
-<br>
-Oscar Leonardo Espinoza Quijandria - u202311842
+
+
+# **Informe de Trabajo Final**
+
+## **Startup:** `LoRaLink`
+## **Producto:** `OffGrid Messenger`
+
 <br>
 
-**2026 - 01**
+**Curso:** Fundamentos de Arquitectura de Software  
+
+**Sección:** 17949
+
+**Docente:** **Jorge Luis Delgado**
+
+<br>
+
+### **Relación de Integrantes:**
+
+| Apellidos y Nombres | Código |
+| :--- | :---: |
+| **Juan Carlos Angulo Abud** | `u202317692` |
+| **Renzo Paul Retuerto Zapata** | `u202320328` |
+| **Renzo Sebastián Uribe Livia** | `u202311745` |
+| **Oscar Leonardo Espinoza Quijandria** | `u202311842` |
+
+<br>
+
+---
+
+<br>
+
+**Ciclo 2026 - 01** **Lima, Perú**
 
 </div>
 
