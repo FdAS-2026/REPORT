@@ -46,11 +46,11 @@ El equipo está conformado por estudiantes de Ingeniería de Software con compet
 
 | Integrante | Descripción |
 | :---: | :--- |
-| <img src="./img/juan.png" width="100"><br>**Juan Carlos Angulo Abud** | Especialista en análisis de requerimientos y lógica de negocio. |
-| <img src="./img/renzo1.png" width="100"><br>**Renzo Paul Retuerto Zapata** | Enfocado en arquitectura de sistemas, integración de hardware IoT y desarrollo backend. |
-| <img src="./img/renzo-u.png" width="100"><br>**Renzo Sebastián Uribe Livia** | Responsable del diseño de interfaces de usuario y aseguramiento de la calidad del software. |
-| <img src="./img/oscar.png" width="100"><br>**Oscar Leonardo Espinoza Quijandria** | Encargado de la arquitectura del sistema y desarrollo del backend e integración Bluetooth–LoRa. |
-| <img src="./img/foto5.png" width="100"><br>**Nombre Integrante 5** | Descripción de las habilidades y rol del quinto integrante. |
+| <img src="./images/juan.png" width="100"><br>**Juan Carlos Angulo Abud** | Especialista en análisis de requerimientos y lógica de negocio. |
+| <img src="./images/renzo1.png" width="100"><br>**Renzo Paul Retuerto Zapata** | Enfocado en arquitectura de sistemas, integración de hardware IoT y desarrollo backend. |
+| <img src="./images/renzo-u.png" width="100"><br>**Renzo Sebastián Uribe Livia** | Responsable del diseño de interfaces de usuario y aseguramiento de la calidad del software. |
+| <img src="./images/oscar.png" width="100"><br>**Oscar Leonardo Espinoza Quijandria** | Encargado de la arquitectura del sistema y desarrollo del backend e integración Bluetooth–LoRa. |
+| <img src="./images/foto5.png" width="100"><br>**Nombre Integrante 5** | Descripción de las habilidades y rol del quinto integrante. |
 
 
 ---
