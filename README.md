@@ -68,7 +68,7 @@ El equipo está conformado por estudiantes de Ingeniería de Software con compet
 | <img src="./images/renzo1.jpg" width="100"><br>**Renzo Paul Retuerto Zapata** | Enfocado en arquitectura de sistemas, integración de hardware IoT y desarrollo backend. |
 | <img src="./images/renzo uribe.png" width="100"><br>**Renzo Sebastián Uribe Livia** | Responsable del diseño de interfaces de usuario y aseguramiento de la calidad del software. |
 | <img src="./images/oscar.png" width="100"><br>**Oscar Leonardo Espinoza Quijandria** | Encargado de la arquitectura del sistema y desarrollo del backend e integración Bluetooth–LoRa. |
-| <img src="./images/foto5.png" width="100"><br>**Nombre Integrante 5** | Descripción de las habilidades y rol del quinto integrante. |
+| <img src="./images/foto5.png" width="100"><br>**Stephano Landauri Perciado** | Responsable del análisis de necesidades reales en entornos sin conectividad y alineación de la solución con los segmentos objetivo. |
 
 
 ---
