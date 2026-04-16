@@ -230,6 +230,10 @@ Para la realización del *User Task Matrix* consideramos las tareas y acciones f
 * **Documentación y Trazabilidad (SQLite):** Registro meticuloso de incidentes y mensajes para auditorías post-crisis o seguimiento de tareas agrícolas, almacenado localmente para acceso sin costo recurrente.
 
 ### 2.3.3. Empathy Maps
+
+<img width="1600" height="515" alt="image" src="https://i.ibb.co/yFV4vFDY/carlos-mamani.jpg" />
+
+
 ### 2.3.4. As-is Scenario Mapping
 
 <img width="1600" height="515" alt="image" src="https://github.com/user-attachments/assets/55cfc2b9-7b8d-457a-93c8-6b4cc73ac6c4" />
