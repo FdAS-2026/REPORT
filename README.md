@@ -16,80 +16,43 @@
 | EP-05 | Almacenamiento local encriptado | Como developer, quiero implementar una base de datos local en SQLite encriptada, para almacenar mensajes, usuarios y configuraciones de forma segura sin depender de la nube. |
 | EP-06 | Landing Page informativa | Como visitante, quiero acceder a una landing page informativa, para conocer la propuesta de valor, funcionamiento y beneficios del sistema. |
 
-| Epic / User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-
+| User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---------------------|--------|-------------|--------------------------|---------------------------|
 | US-01 | Enviar mensaje por LoRa | Como usuario, quiero enviar mensajes mediante tecnología LoRa, para comunicarme sin usar internet. | Escenario 1: Dado que el usuario está conectado a un dispositivo LoRa vía Bluetooth, Cuando redacta un mensaje y presiona enviar, Entonces el sistema transmite el mensaje mediante la red LoRa. Escenario 2: Dado que no existe conexión con el dispositivo LoRa, Cuando el usuario intenta enviar un mensaje, Entonces el sistema muestra un error indicando que no hay conexión disponible. | EP-01 |
-
 | US-02 | Recepción de mensajes LoRa | Como usuario, quiero recibir mensajes desde la red LoRa, para mantener comunicación con otros usuarios. | Escenario 1: Dado que el dispositivo LoRa recibe un mensaje, Cuando el sistema procesa la señal, Entonces el mensaje se muestra en la aplicación. Escenario 2: Dado que el mensaje llega mientras la app está en segundo plano, Cuando el sistema lo recibe, Entonces se genera una notificación para el usuario. | EP-01 |
-
 | US-03 | Comunicación a larga distancia | Como usuario, quiero comunicarme a larga distancia mediante LoRa, para usar el sistema en zonas remotas. | Escenario 1: Dado que existen nodos LoRa intermedios, Cuando el usuario envía un mensaje, Entonces el mensaje es retransmitido hasta llegar al destinatario. Escenario 2: Dado que no hay nodos disponibles, Cuando se envía el mensaje, Entonces el sistema indica que no se pudo completar la entrega. | EP-01 |
-
 | US-04 | Confirmación de envío | Como usuario, quiero saber si mi mensaje fue enviado correctamente, para asegurar la comunicación. | Escenario 1: Dado que el mensaje se transmite correctamente, Cuando finaliza el envío, Entonces el sistema muestra el estado “enviado”. Escenario 2: Dado que ocurre un fallo en la transmisión, Cuando el sistema detecta el error, Entonces muestra el estado “fallido”. | EP-01 |
-
 | US-05 | Recepción en segundo plano | Como usuario, quiero recibir mensajes aunque no esté en la pantalla principal, para no perder información. | Escenario 1: Dado que la app está en segundo plano, Cuando llega un mensaje LoRa, Entonces el sistema lo procesa y lo guarda. Escenario 2: Dado que el usuario no tiene la app abierta, Cuando llega el mensaje, Entonces recibe una notificación. | EP-01 |
-
 | US-06 | Conexión Bluetooth | Como usuario, quiero conectar mi celular al dispositivo LoRa mediante Bluetooth, para poder enviar mensajes. | Escenario 1: Dado que el Bluetooth está activado, Cuando el usuario selecciona un dispositivo, Entonces el sistema establece la conexión. Escenario 2: Dado que el dispositivo no está disponible, Cuando el usuario intenta conectarse, Entonces se muestra un error. | EP-02 |
-
 | US-07 | Visualizar dispositivos | Como usuario, quiero ver dispositivos Bluetooth disponibles, para seleccionar el correcto. | Escenario 1: Dado que el Bluetooth está activo, Cuando el usuario accede a la lista, Entonces se muestran los dispositivos cercanos. Escenario 2: Dado que no hay dispositivos, Cuando se accede, Entonces se muestra un mensaje de “sin dispositivos”. | EP-02 |
-
 | US-08 | Estado de conexión | Como usuario, quiero ver el estado de conexión, para saber si puedo enviar mensajes. | Escenario 1: Dado que existe conexión, Cuando se visualiza el estado, Entonces muestra “conectado”. Escenario 2: Dado que se pierde la conexión, Cuando ocurre el evento, Entonces cambia a “desconectado”. | EP-02 |
-
 | US-09 | Reconexión automática | Como usuario, quiero reconexión automática, para no reconectar manualmente. | Escenario 1: Dado que la conexión se pierde, Cuando el dispositivo vuelve a estar disponible, Entonces el sistema intenta reconectar automáticamente. Escenario 2: Dado que falla la reconexión, Cuando se intenta varias veces, Entonces se notifica al usuario. | EP-02 |
-
 | US-10 | Desconexión manual | Como usuario, quiero desconectarme manualmente, para gestionar mis dispositivos. | Escenario 1: Dado que el usuario presiona desconectar, Cuando se ejecuta la acción, Entonces la conexión se termina. Escenario 2: Dado que se desconecta, Cuando se actualiza el estado, Entonces se muestra “desconectado”. | EP-02 |
-
 | US-11 | Encriptar mensajes | Como usuario, quiero que mis mensajes se encripten antes de ser enviados, para proteger mi información. | Escenario 1: Dado que el usuario envía un mensaje, Cuando el sistema procesa el envío, Entonces el mensaje se encripta antes de transmitirse. Escenario 2: Dado que ocurre un error en el cifrado, Cuando se intenta enviar el mensaje, Entonces el sistema bloquea el envío y notifica el error. | EP-03 |
-
 | US-12 | Desencriptar mensajes | Como usuario, quiero que los mensajes recibidos se desencripten automáticamente, para poder leerlos. | Escenario 1: Dado que se recibe un mensaje cifrado, Cuando el sistema lo procesa, Entonces se desencripta correctamente. Escenario 2: Dado que la clave es inválida, Cuando se intenta desencriptar, Entonces se muestra un error. | EP-03 |
-
 | US-13 | Protección en transmisión | Como usuario, quiero que los mensajes no puedan ser leídos por terceros, para mantener privacidad. | Escenario 1: Dado que el mensaje viaja por LoRa, Cuando es interceptado, Entonces no es legible. Escenario 2: Dado que un usuario no autorizado accede, Entonces no puede descifrar el mensaje. | EP-03 |
-
 | US-14 | Integridad del mensaje | Como usuario, quiero asegurar que el mensaje no sea alterado, para confiar en la información. | Escenario 1: Dado que el mensaje llega, Cuando se valida, Entonces se confirma su integridad. Escenario 2: Dado que el mensaje fue alterado, Cuando se valida, Entonces se descarta. | EP-03 |
-
 | US-15 | Seguridad de claves | Como usuario, quiero que las claves de cifrado sean seguras, para proteger mis datos. | Escenario 1: Dado que se genera una clave, Cuando se almacena, Entonces se guarda de forma segura. Escenario 2: Dado acceso no autorizado, Entonces no puede acceder a las claves. | EP-03 |
-
 | US-16 | Crear usuario local | Como usuario, quiero crear un perfil local, para usar la app sin servidor. | Escenario 1: Dado que es la primera vez, Cuando ingresa datos, Entonces se crea usuario. Escenario 2: Dado error, Entonces se notifica. | EP-04 |
-
 | US-17 | Editar perfil | Como usuario, quiero modificar mis datos, para mantenerlos actualizados. | Escenario 1: Dado edición, Cuando guarda, Entonces se actualiza. Escenario 2: Dado error, Entonces no se guarda. | EP-04 |
-
 | US-18 | Identidad en mensajes | Como usuario, quiero que mis mensajes incluyan mi nombre, para identificarme. | Escenario 1: Dado envío, Cuando se procesa, Entonces incluye nombre. Escenario 2: Dado falta de datos, Entonces usa ID local. | EP-04 |
-
 | US-19 | Persistencia del usuario | Como usuario, quiero que mi perfil se mantenga, para no configurarlo nuevamente. | Escenario 1: Dado reinicio, Entonces mantiene datos. Escenario 2: Dado borrado, Entonces solicita creación. | EP-04 |
-
 | US-20 | Uso sin cuenta externa | Como usuario, quiero usar la app sin login online, para no depender de internet. | Escenario 1: Dado acceso, Entonces no solicita login. Escenario 2: Dado uso completo, Entonces funciona offline. | EP-04 |
-
 | US-21 | Guardar mensajes | Como usuario, quiero almacenar mensajes localmente, para revisarlos luego. | Escenario 1: Dado mensaje, Cuando se envía/recibe, Entonces se guarda en DB. Escenario 2: Dado error, Entonces se notifica. | EP-05 |
-
 | US-22 | Ver historial | Como usuario, quiero ver historial de mensajes, para consultar conversaciones. | Escenario 1: Dado acceso, Entonces muestra historial. Escenario 2: Dado vacío, Entonces muestra mensaje. | EP-05 |
-
 | US-23 | Datos encriptados | Como usuario, quiero que los datos estén cifrados, para seguridad. | Escenario 1: Dado almacenamiento, Entonces se cifra. Escenario 2: Dado acceso externo, Entonces no es legible. | EP-05 |
-
 | US-24 | Persistencia de datos | Como usuario, quiero que los datos no se pierdan, para continuidad. | Escenario 1: Dado reinicio, Entonces mantiene datos. Escenario 2: Dado fallo, Entonces intenta recuperar. | EP-05 |
-
 | US-25 | Guardar configuración | Como usuario, quiero guardar configuraciones, para personalizar la app. | Escenario 1: Dado cambio, Entonces se guarda. Escenario 2: Dado error, Entonces no se aplica. | EP-05 |
-
 | US-26 | Acceder a landing | Como visitante, quiero acceder a la landing page, para conocer el producto. | Escenario 1: Dado acceso web, Entonces carga correctamente. Escenario 2: Dado error, Entonces muestra fallback. | EP-06 |
-
 | US-27 | Ver propuesta de valor | Como visitante, quiero entender el beneficio del sistema, para evaluarlo. | Escenario 1: Dado navegación, Entonces muestra propuesta clara. Escenario 2: Dado lectura, Entonces es comprensible. | EP-06 |
-
 | US-28 | Ver funcionamiento | Como visitante, quiero entender cómo funciona el sistema, para conocer su tecnología. | Escenario 1: Dado sección info, Entonces explica LoRa + Bluetooth. Escenario 2: Dado interacción, Entonces es claro. | EP-06 |
-
 | US-29 | Diseño responsive | Como visitante, quiero ver la web en cualquier dispositivo, para acceder fácilmente. | Escenario 1: Dado móvil, Entonces se adapta. Escenario 2: Dado desktop, Entonces mantiene diseño. | EP-06 |
-
 | US-30 | Contacto | Como visitante, quiero contactar o mostrar interés, para saber más. | Escenario 1: Dado acción, Entonces registra contacto. Escenario 2: Dado error, Entonces notifica. | EP-06 |
-
 | TS-01 | Implementación de comunicación LoRa | Como developer del sistema, quiero implementar la transmisión de datos mediante LoRa, para permitir comunicación entre dispositivos. | Escenario 1: Dado que el dispositivo LoRa está activo, Cuando se envía un paquete de datos, Entonces el sistema lo transmite correctamente. Escenario 2: Dado que ocurre interferencia, Cuando falla la transmisión, Entonces el sistema reintenta el envío. | EP-01 |
-
 | TS-02 | Recepción de datos LoRa | Como developer del sistema, quiero implementar la recepción de datos LoRa, para procesar mensajes entrantes. | Escenario 1: Dado que llega un paquete LoRa, Cuando el sistema lo recibe, Entonces lo decodifica correctamente. Escenario 2: Dado que el paquete está corrupto, Cuando se procesa, Entonces se descarta. | EP-01 |
-
 | TS-03 | Implementación BLE | Como developer del sistema, quiero implementar conexión Bluetooth BLE, para conectar app con dispositivo LoRa. | Escenario 1: Dado que el Bluetooth está activo, Cuando se inicia conexión, Entonces se establece correctamente. Escenario 2: Dado que falla, Cuando ocurre error, Entonces se maneja sin cerrar la app. | EP-02 |
-
 | TS-04 | Manejo de estado Bluetooth | Como developer del sistema, quiero manejar estados de conexión, para reflejar el estado en la interfaz. | Escenario 1: Dado que cambia el estado, Cuando ocurre el evento, Entonces se actualiza la UI. Escenario 2: Dado que hay desconexión, Entonces se notifica al usuario. | EP-02 |
-
 | TS-05 | Implementación de cifrado | Como developer del sistema, quiero implementar cifrado de extremo a extremo, para proteger los mensajes. | Escenario 1: Dado un mensaje, Cuando se envía, Entonces se cifra correctamente. Escenario 2: Dado error, Entonces se evita el envío. | EP-03 |
-
 | TS-06 | Gestión de usuario local | Como developer del sistema, quiero manejar usuarios locales, para evitar dependencia de servidor. | Escenario 1: Dado creación, Entonces se guarda local. Escenario 2: Dado edición, Entonces se actualiza. | EP-04 |
-
 | TS-07 | Implementación SQLite | Como developer del sistema, quiero integrar SQLite, para almacenamiento local. | Escenario 1: Dado operación, Entonces guarda datos. Escenario 2: Dado error, Entonces se maneja. | EP-05 |
-
 | TS-08 | Encriptación de base de datos | Como developer del sistema, quiero cifrar la base de datos, para proteger datos. | Escenario 1: Dado acceso, Entonces requiere desencriptado. Escenario 2: Dado acceso externo, Entonces no es legible. | EP-05 |
