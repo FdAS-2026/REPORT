@@ -1,6 +1,19 @@
 # Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
+| Categoría | OffGrid Messenger | Meshtastic | goTenna | MeshCore | Bitchat |
+|----------|------------------|------------|----------|----------|---------|
+| Perfil – Overview | Sistema de comunicación privada P2P basado en LoRa, sin internet, diseñado para entornos remotos. Permite enviar mensajes encriptados de forma segura y confiable entre usuarios. | Plataforma open-source de comunicación off-grid basada en LoRa que permite enviar mensajes sin internet mediante red mesh. | Dispositivo + app que permite enviar mensajes y ubicación sin señal celular usando red mesh propia. | Plataforma LoRa descentralizada para comunicación encriptada off-grid con enfoque en redes resilientes. | App de mensajería P2P basada en Bluetooth que funciona sin internet ni servidores. |
+| Ventaja competitiva | Comunicación encriptada, fácil de usar y enfocada en usuarios reales (empresas, emergencias y outdoor), sin depender de infraestructura externa. | Gran comunidad, bajo costo y compatibilidad con múltiples dispositivos. | Solución comercial lista para usar, con buena experiencia de usuario. | Alta seguridad y descentralización. | No requiere hardware adicional. |
+| Mercado objetivo | Empresas en zonas remotas, campamentos, equipos de emergencia y usuarios outdoor. | Usuarios técnicos, outdoor y comunidad open-source. | Viajeros, rescate, militar y outdoor. | Desarrolladores y comunidades técnicas. | Usuarios urbanos o comunicación cercana. |
+| Estrategias de marketing | Validación en campo, alianzas con empresas, enfoque en seguridad y casos reales de uso. | Comunidad open-source, foros y GitHub. | Marketing enfocado en seguridad y aventura. | Comunidad técnica y desarrollo colaborativo. | Difusión mediática y enfoque en privacidad. |
+| Productos & Servicios | Dispositivo LoRa + app móvil + comunicación encriptada + red P2P. | Software + app + dispositivos compatibles. | Hardware propietario + app móvil. | Software + integración con hardware LoRa. | App móvil. |
+| Precios & Costos | Modelo por definir (posible venta de dispositivo + servicio). | Bajo costo (open-source). | Alto (hardware propietario). | Bajo (open-source). | Gratuito. |
+| Canales de distribución | App móvil + distribución de hardware + alianzas empresariales. | Web, comunidad, tiendas de hardware. | Tienda oficial y distribuidores. | Web y comunidad. | App stores. |
+| Fortalezas | Solución práctica, segura y adaptable a múltiples sectores reales. | Gran comunidad y adopción creciente. | Producto probado y confiable. | Seguridad avanzada. | Fácil acceso. |
+| Debilidades | Proyecto en etapa inicial, requiere adopción. | Configuración técnica compleja. | Costo elevado. | Baja adopción. | Alcance limitado. |
+| Oportunidades | Crecimiento en sectores sin conectividad y emergencias. | Expansión global de comunidad. | Nuevos mercados profesionales. | Integración con IoT. | Evolución tecnológica. |
+| Amenazas | Competidores tecnológicos y barrera de adopción. | Nuevas soluciones más simples. | Alternativas más económicas. | Competencia con Meshtastic. | Limitaciones técnicas frente a LoRa. |
 ## 2.2. Entrevistas
 ### 2.2.1 Diseño de entrevistas
 ---
