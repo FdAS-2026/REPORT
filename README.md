@@ -261,6 +261,7 @@ Hoy en día, quedarse sin señal en una zona remota o durante una emergencia no 
 
 ---
 ### 1.2.3.4 Lean UX Canvas
+<img width="1181" height="826" alt="image" src="https://github.com/user-attachments/assets/fe85ae6a-9558-4872-a7e7-bc5260411be0" />
 
 ---
 
