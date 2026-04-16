@@ -210,6 +210,25 @@ Se evidencia una necesidad clara de contar con una solución de comunicación in
 <img width="1600" height="969" alt="image" src="https://github.com/user-attachments/assets/529da112-4f6d-4cf5-a236-ca47d0612da7" />
 
 ### 2.3.2. User Task Matrix
+Para la realización del *User Task Matrix* consideramos las tareas y acciones frecuentes que llevan a cabo los *User Persona* para alcanzar sus objetivos. En este caso, los segmentos que tomaremos en cuenta son los usuarios de zonas rurales, deportistas outdoor y los equipos de respuesta ante emergencias.
+
+| Task Matrix | **Carlos Mamani** | | **Roberto Cáceda** | | **Lucía Rivas** | |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| **Enviar y recibir mensajes vía LoRa** | Often | High | Often | High | Often | High |
+| **Vincular smartphone con nodo ESP32** | Often | High | Often | High | Sometimes | High |
+| **Cifrar mensajes de texto** | Rarely | Medium | Sometimes | Medium | Often | High |
+| **Gestionar perfil de usuario local** | Sometimes | Medium | Sometimes | Medium | Sometimes | High |
+| **Consultar historial de mensajes (SQLite)** | Sometimes | Medium | Rarely | Low | Often | High |
+| **Acceder a la Landing Page informativa** | Rarely | Low | Often | Medium | Rarely | Low |
+
+---
+
+* **Enviar y recibir mensajes vía LoRa:** Se refiere a la capacidad de registrar y transmitir datos de texto de forma bidireccional utilizando la red descentralizada de largo alcance sin dependencia de internet convencional.
+* **Vincular smartphone con nodo ESP32:** Establecimiento de la conexión inalámbrica Bluetooth Low Energy (BLE) entre la aplicación móvil y el hardware de comunicación para habilitar el puente de red.
+* **Cifrar mensajes de texto:** Aplicación de protocolos de seguridad criptográfica punto a punto para asegurar que la información crítica no sea interceptada o leída por terceros ajenos a la red.
+* **Consultar historial de mensajes (SQLite):** Revisión de la base de datos local embebida en el dispositivo móvil para recuperar información de conversaciones pasadas sin necesidad de una conexión activa al nodo.
+
 ### 2.3.3. Empathy Maps
 ### 2.3.4. As-is Scenario Mapping
 
