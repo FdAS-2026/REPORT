@@ -62,29 +62,38 @@
 | # Orden | User Story Id | Título | Descripción | Story Points |
 |--------|---------------|--------|-------------|--------------|
 | 1 | US-06 | Conexión Bluetooth | Como usuario, deseo conectar mi celular al dispositivo LoRa mediante Bluetooth, para poder iniciar la comunicación. | 8 |
-| 2 | US-01 | Enviar mensaje por LoRa | Como usuario, deseo enviar mensajes mediante tecnología LoRa, para comunicarme sin usar internet. | 8 |
-| 3 | US-02 | Recepción de mensajes LoRa | Como usuario, deseo recibir mensajes desde la red LoRa, para mantener comunicación con otros usuarios. | 5 |
-| 4 | US-08 | Estado de conexión | Como usuario, deseo ver el estado de conexión Bluetooth y LoRa, para saber si puedo enviar mensajes. | 3 |
-| 5 | US-11 | Encriptar mensajes | Como usuario, deseo que mis mensajes se encripten antes de ser enviados, para proteger mi información. | 5 |
-| 6 | US-12 | Desencriptar mensajes | Como usuario, deseo que los mensajes recibidos se desencripten automáticamente, para poder leerlos. | 5 |
-| 7 | US-16 | Crear usuario local | Como usuario, deseo crear un perfil local, para usar la aplicación sin necesidad de servidor. | 3 |
-| 8 | US-21 | Guardar mensajes | Como usuario, deseo almacenar mensajes localmente, para revisarlos posteriormente. | 5 |
-| 9 | US-22 | Ver historial | Como usuario, deseo visualizar el historial de mensajes, para consultar conversaciones anteriores. | 3 |
-| 10 | US-09 | Reconexión automática | Como usuario, deseo que el sistema se reconecte automáticamente, para no realizar la conexión manualmente. | 5 |
-| 11 | US-07 | Visualizar dispositivos | Como usuario, deseo ver dispositivos Bluetooth disponibles, para seleccionar el correcto. | 3 |
-| 12 | US-04 | Confirmación de envío | Como usuario, deseo saber si mi mensaje fue enviado correctamente, para asegurar la comunicación. | 2 |
-| 13 | US-10 | Desconexión manual | Como usuario, deseo desconectarme manualmente, para gestionar mis dispositivos. | 2 |
-| 14 | US-03 | Comunicación a larga distancia | Como usuario, deseo comunicarme a larga distancia mediante LoRa, para usar el sistema en zonas remotas. | 5 |
-| 15 | US-05 | Recepción en segundo plano | Como usuario, deseo recibir mensajes en segundo plano, para no perder información. | 3 |
-| 16 | US-17 | Editar perfil | Como usuario, deseo modificar mis datos, para mantenerlos actualizados. | 2 |
-| 17 | US-18 | Identidad en mensajes | Como usuario, deseo que mis mensajes incluyan mi nombre, para identificarme. | 2 |
-| 18 | US-19 | Persistencia del usuario | Como usuario, deseo que mi perfil se mantenga guardado, para no configurarlo nuevamente. | 2 |
-| 19 | US-20 | Uso sin cuenta externa | Como usuario, deseo utilizar la app sin iniciar sesión en internet, para no depender de servicios externos. | 3 |
-| 20 | US-23 | Datos encriptados | Como usuario, deseo que los datos almacenados estén cifrados, para proteger mi información local. | 5 |
-| 21 | US-24 | Persistencia de datos | Como usuario, deseo que los datos no se pierdan al cerrar la aplicación, para mantener continuidad. | 3 |
-| 22 | US-25 | Guardar configuración | Como usuario, deseo guardar configuraciones personalizadas, para adaptar la aplicación a mis necesidades. | 2 |
-| 23 | US-26 | Acceder a landing | Como visitante, deseo acceder a la landing page, para conocer el producto. | 2 |
-| 24 | US-27 | Ver propuesta de valor | Como visitante, deseo entender el beneficio del sistema, para evaluarlo. | 2 |
-| 25 | US-28 | Ver funcionamiento | Como visitante, deseo entender cómo funciona el sistema, para conocer su tecnología. | 3 |
-| 26 | US-29 | Diseño responsive | Como visitante, deseo visualizar la página en cualquier dispositivo, para acceder fácilmente. | 2 |
-| 27 | US-30 | Contacto | Como visitante, deseo contactar o mostrar interés, para obtener más información. | 2 |
+| 2 | TS-03 | Implementación Bluetooth BLE | Como developer del sistema, deseo implementar conexión Bluetooth Low Energy, para permitir la comunicación entre la app y el dispositivo LoRa. | 8 |
+| 3 | US-01 | Enviar mensaje por LoRa | Como usuario, deseo enviar mensajes mediante tecnología LoRa, para comunicarme sin usar internet. | 8 |
+| 4 | TS-01 | Implementación comunicación LoRa | Como developer del sistema, deseo implementar la transmisión de datos mediante LoRa, para permitir comunicación entre dispositivos. | 8 |
+| 5 | US-02 | Recepción de mensajes LoRa | Como usuario, deseo recibir mensajes desde la red LoRa, para mantener comunicación con otros usuarios. | 5 |
+| 6 | TS-02 | Recepción de datos LoRa | Como developer del sistema, deseo implementar la recepción de datos LoRa, para procesar mensajes entrantes. | 5 |
+| 7 | US-08 | Estado de conexión | Como usuario, deseo ver el estado de conexión Bluetooth y LoRa, para saber si puedo enviar mensajes. | 3 |
+| 8 | TS-04 | Manejo de estado Bluetooth | Como developer del sistema, deseo gestionar los estados de conexión, para reflejar correctamente la información en la interfaz. | 3 |
+| 9 | US-11 | Encriptar mensajes | Como usuario, deseo que mis mensajes se encripten antes de ser enviados, para proteger mi información. | 5 |
+| 10 | TS-05 | Implementación de cifrado | Como developer del sistema, deseo implementar cifrado de extremo a extremo, para proteger los mensajes. | 5 |
+| 11 | US-12 | Desencriptar mensajes | Como usuario, deseo que los mensajes recibidos se desencripten automáticamente, para poder leerlos. | 5 |
+| 12 | US-16 | Crear usuario local | Como usuario, deseo crear un perfil local, para usar la aplicación sin necesidad de servidor. | 3 |
+| 13 | TS-06 | Gestión de usuario local | Como developer del sistema, deseo implementar la gestión de usuarios locales, para evitar dependencia de un servidor. | 3 |
+| 14 | US-21 | Guardar mensajes | Como usuario, deseo almacenar mensajes localmente, para revisarlos posteriormente. | 5 |
+| 15 | TS-07 | Implementación SQLite | Como developer del sistema, deseo integrar SQLite, para almacenamiento local de datos. | 5 |
+| 16 | TS-08 | Encriptación de base de datos | Como developer del sistema, deseo cifrar la base de datos, para proteger la información almacenada. | 5 |
+| 17 | US-22 | Ver historial | Como usuario, deseo visualizar el historial de mensajes, para consultar conversaciones anteriores. | 3 |
+| 18 | US-09 | Reconexión automática | Como usuario, deseo que el sistema se reconecte automáticamente, para evitar reconexión manual. | 5 |
+| 19 | US-07 | Visualizar dispositivos | Como usuario, deseo ver dispositivos Bluetooth disponibles, para seleccionar el correcto. | 3 |
+| 20 | US-04 | Confirmación de envío | Como usuario, deseo saber si mi mensaje fue enviado correctamente, para asegurar la comunicación. | 2 |
+| 21 | US-10 | Desconexión manual | Como usuario, deseo desconectarme manualmente, para gestionar mis dispositivos. | 2 |
+| 22 | US-03 | Comunicación a larga distancia | Como usuario, deseo comunicarme a larga distancia mediante LoRa, para usar el sistema en zonas remotas. | 5 |
+| 23 | US-05 | Recepción en segundo plano | Como usuario, deseo recibir mensajes en segundo plano, para no perder información. | 3 |
+| 24 | US-17 | Editar perfil | Como usuario, deseo modificar mis datos, para mantenerlos actualizados. | 2 |
+| 25 | US-18 | Identidad en mensajes | Como usuario, deseo que mis mensajes incluyan mi nombre, para identificarme. | 2 |
+| 26 | US-19 | Persistencia del usuario | Como usuario, deseo que mi perfil se mantenga guardado, para no configurarlo nuevamente. | 2 |
+| 27 | US-20 | Uso sin cuenta externa | Como usuario, deseo utilizar la app sin iniciar sesión en internet, para no depender de servicios externos. | 3 |
+| 28 | US-23 | Datos encriptados | Como usuario, deseo que los datos almacenados estén cifrados, para proteger mi información local. | 5 |
+| 29 | US-24 | Persistencia de datos | Como usuario, deseo que los datos no se pierdan al cerrar la aplicación, para mantener continuidad. | 3 |
+| 30 | US-25 | Guardar configuración | Como usuario, deseo guardar configuraciones personalizadas, para adaptar la aplicación a mis necesidades. | 2 |
+| 31 | US-26 | Acceder a landing | Como visitante, deseo acceder a la landing page, para conocer el producto. | 2 |
+| 32 | TS-09 | Desarrollo landing web | Como developer del sistema, deseo implementar la landing page, para presentar el producto. | 3 |
+| 33 | US-27 | Ver propuesta de valor | Como visitante, deseo entender el beneficio del sistema, para evaluarlo. | 2 |
+| 34 | US-28 | Ver funcionamiento | Como visitante, deseo entender cómo funciona el sistema, para conocer su tecnología. | 3 |
+| 35 | US-29 | Diseño responsive | Como visitante, deseo visualizar la página en cualquier dispositivo, para acceder fácilmente. | 2 |
+| 36 | US-30 | Contacto | Como visitante, deseo contactar o mostrar interés, para obtener más información. | 2 |
