@@ -22,8 +22,8 @@ Juan Carlos Angulo Abud - u202317692
 Renzo Paul Retuerto Zapata - u202320328
 <br>
 Renzo Sebastián Uribe Livia - u202311745
-
 <br>
+Oscar Leonardo Espinoza Quijandria - u202311842
 <br>
 
 **2026 - 01**
@@ -51,7 +51,7 @@ El equipo está conformado por estudiantes de Ingeniería de Software con compet
 | <img src="./img/juan.png" width="100"><br>**Juan Carlos Angulo Abud** | Especialista en análisis de requerimientos y lógica de negocio. |
 | <img src="./img/renzo-p.png" width="100"><br>**Renzo Paul Retuerto Zapata** | Enfocado en arquitectura de sistemas, integración de hardware IoT y desarrollo backend. |
 | <img src="./img/renzo-u.png" width="100"><br>**Renzo Sebastián Uribe Livia** | Responsable del diseño de interfaces de usuario y aseguramiento de la calidad del software. |
-| <img src="./img/foto4.png" width="100"><br>**Nombre Integrante 4** | Descripción de las habilidades y rol del cuarto integrante. |
+| <img src="./img/oscar.png" width="100"><br>**Oscar Leonardo Espinoza Quijandria** | Encargado de la arquitectura del sistema y desarrollo del backend e integración Bluetooth–LoRa. |
 | <img src="./img/foto5.png" width="100"><br>**Nombre Integrante 5** | Descripción de las habilidades y rol del quinto integrante. |
 
 
