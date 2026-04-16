@@ -56,3 +56,35 @@
 | TS-06 | Gestión de usuario local | Como developer del sistema, quiero implementar la gestión de usuarios locales, para evitar dependencia de un servidor externo. | Escenario 1: Dado que el usuario crea o edita su perfil, Cuando el sistema procesa la información, Entonces los datos se almacenan correctamente en el dispositivo. <br><br> Escenario 2: Dado que ocurre un error al guardar los datos, Cuando el sistema intenta persistir la información, Entonces se muestra un mensaje de error y no se aplican los cambios. | EP-04 |
 | TS-07 | Implementación de base de datos SQLite | Como developer del sistema, quiero integrar SQLite, para almacenar mensajes y configuraciones de forma local. | Escenario 1: Dado que se realiza una operación de almacenamiento, Cuando el sistema guarda los datos, Entonces la información se persiste correctamente en la base de datos SQLite. <br><br> Escenario 2: Dado que ocurre un error en la operación de la base de datos, Cuando el sistema intenta guardar la información, Entonces registra el error y muestra un mensaje indicando que no se pudo completar la operación. | EP-05 |
 | TS-08 | Encriptación de base de datos | Como developer del sistema, quiero cifrar la base de datos SQLite, para proteger los datos almacenados localmente. | Escenario 1: Dado que los datos se almacenan en la base de datos, Cuando el sistema los guarda, Entonces se cifran automáticamente antes de persistirse. <br><br> Escenario 2: Dado que un acceso no autorizado intenta leer la base de datos, Cuando se intenta acceder sin credenciales válidas, Entonces los datos no son legibles y el acceso es denegado. | EP-05 |
+
+## 3.4 Product Backlog 
+
+| # Orden | User Story Id | Título | Descripción | Story Points |
+|--------|---------------|--------|-------------|--------------|
+| 1 | US-06 | Conexión Bluetooth | Como usuario, deseo conectar mi celular al dispositivo LoRa mediante Bluetooth, para poder iniciar la comunicación. | 8 |
+| 2 | US-01 | Enviar mensaje por LoRa | Como usuario, deseo enviar mensajes mediante tecnología LoRa, para comunicarme sin usar internet. | 8 |
+| 3 | US-02 | Recepción de mensajes LoRa | Como usuario, deseo recibir mensajes desde la red LoRa, para mantener comunicación con otros usuarios. | 5 |
+| 4 | US-08 | Estado de conexión | Como usuario, deseo ver el estado de conexión Bluetooth y LoRa, para saber si puedo enviar mensajes. | 3 |
+| 5 | US-11 | Encriptar mensajes | Como usuario, deseo que mis mensajes se encripten antes de ser enviados, para proteger mi información. | 5 |
+| 6 | US-12 | Desencriptar mensajes | Como usuario, deseo que los mensajes recibidos se desencripten automáticamente, para poder leerlos. | 5 |
+| 7 | US-16 | Crear usuario local | Como usuario, deseo crear un perfil local, para usar la aplicación sin necesidad de servidor. | 3 |
+| 8 | US-21 | Guardar mensajes | Como usuario, deseo almacenar mensajes localmente, para revisarlos posteriormente. | 5 |
+| 9 | US-22 | Ver historial | Como usuario, deseo visualizar el historial de mensajes, para consultar conversaciones anteriores. | 3 |
+| 10 | US-09 | Reconexión automática | Como usuario, deseo que el sistema se reconecte automáticamente, para no realizar la conexión manualmente. | 5 |
+| 11 | US-07 | Visualizar dispositivos | Como usuario, deseo ver dispositivos Bluetooth disponibles, para seleccionar el correcto. | 3 |
+| 12 | US-04 | Confirmación de envío | Como usuario, deseo saber si mi mensaje fue enviado correctamente, para asegurar la comunicación. | 2 |
+| 13 | US-10 | Desconexión manual | Como usuario, deseo desconectarme manualmente, para gestionar mis dispositivos. | 2 |
+| 14 | US-03 | Comunicación a larga distancia | Como usuario, deseo comunicarme a larga distancia mediante LoRa, para usar el sistema en zonas remotas. | 5 |
+| 15 | US-05 | Recepción en segundo plano | Como usuario, deseo recibir mensajes en segundo plano, para no perder información. | 3 |
+| 16 | US-17 | Editar perfil | Como usuario, deseo modificar mis datos, para mantenerlos actualizados. | 2 |
+| 17 | US-18 | Identidad en mensajes | Como usuario, deseo que mis mensajes incluyan mi nombre, para identificarme. | 2 |
+| 18 | US-19 | Persistencia del usuario | Como usuario, deseo que mi perfil se mantenga guardado, para no configurarlo nuevamente. | 2 |
+| 19 | US-20 | Uso sin cuenta externa | Como usuario, deseo utilizar la app sin iniciar sesión en internet, para no depender de servicios externos. | 3 |
+| 20 | US-23 | Datos encriptados | Como usuario, deseo que los datos almacenados estén cifrados, para proteger mi información local. | 5 |
+| 21 | US-24 | Persistencia de datos | Como usuario, deseo que los datos no se pierdan al cerrar la aplicación, para mantener continuidad. | 3 |
+| 22 | US-25 | Guardar configuración | Como usuario, deseo guardar configuraciones personalizadas, para adaptar la aplicación a mis necesidades. | 2 |
+| 23 | US-26 | Acceder a landing | Como visitante, deseo acceder a la landing page, para conocer el producto. | 2 |
+| 24 | US-27 | Ver propuesta de valor | Como visitante, deseo entender el beneficio del sistema, para evaluarlo. | 2 |
+| 25 | US-28 | Ver funcionamiento | Como visitante, deseo entender cómo funciona el sistema, para conocer su tecnología. | 3 |
+| 26 | US-29 | Diseño responsive | Como visitante, deseo visualizar la página en cualquier dispositivo, para acceder fácilmente. | 2 |
+| 27 | US-30 | Contacto | Como visitante, deseo contactar o mostrar interés, para obtener más información. | 2 |
