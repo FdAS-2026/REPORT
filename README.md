@@ -55,11 +55,9 @@ El equipo está conformado por estudiantes de Ingeniería de Software con compet
 
 ---
 
-<div align="center">
 
 # 1.2 Solution Profile
 
-</div>
 
 ### 1.2.1 Nombre del producto
 El producto desarrollado llevará el nombre de **OffGrid Messenger**, una solución de mensajería descentralizada basada en tecnología **LoRa** ya que representa una plataforma de mensajería capaz de operar sin conexión a redes tradicionales, enfocada en comunicación descentralizada y de largo alcance.
