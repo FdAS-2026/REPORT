@@ -32,11 +32,9 @@ Oscar Leonardo Espinoza Quijandria - u202311842
 
 ---
 
-<div align="center">
 
 # Capítulo I: Introducción
 
-</div>
 
 ## 1.1 Startup Profile
 
