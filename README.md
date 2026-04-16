@@ -244,11 +244,9 @@ Hoy en día, quedarse sin señal en una zona remota o durante una emergencia no 
 
 ---
 
-<div align="center">
 
 # 1.3 Segmentos Objetivo
 
-</div>
 
 El producto está dirigido a usuarios que requieren comunicación en entornos donde la conectividad a internet o redes móviles es limitada o inexistente. A continuación, se detallan los segmentos objetivo identificados:
 
