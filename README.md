@@ -71,9 +71,43 @@ LINK MIROBOARD: https://miro.com/app/board/uXjVGh3DVhg=/?share_link_id=353512440
 | TS-07 | Implementación de base de datos SQLite | Como developer del sistema, quiero integrar SQLite, para almacenar mensajes y configuraciones de forma local. | Escenario 1: Dado que se realiza una operación de almacenamiento, Cuando el sistema guarda los datos, Entonces la información se persiste correctamente en la base de datos SQLite. <br><br> Escenario 2: Dado que ocurre un error en la operación de la base de datos, Cuando el sistema intenta guardar la información, Entonces registra el error y muestra un mensaje indicando que no se pudo completar la operación. | EP-05 |
 | TS-08 | Encriptación de base de datos | Como developer del sistema, quiero cifrar la base de datos SQLite, para proteger los datos almacenados localmente. | Escenario 1: Dado que los datos se almacenan en la base de datos, Cuando el sistema los guarda, Entonces se cifran automáticamente antes de persistirse. <br><br> Escenario 2: Dado que un acceso no autorizado intenta leer la base de datos, Cuando se intenta acceder sin credenciales válidas, Entonces los datos no son legibles y el acceso es denegado. | EP-05 |
 
-##3.3 Impact Map
+## 3.3. Impact Mapping
 
+El Impact Mapping es una metodología visual que permite establecer una conexión clara entre los objetivos estratégicos del negocio, los actores involucrados y las funcionalidades del producto digital. A través de una estructura jerárquica, esta herramienta facilita comprender cómo las metas del proyecto se traducen en cambios de comportamiento en los usuarios y, posteriormente, en entregables concretos que generan valor.
 
+En el presente proyecto, el Impact Mapping se utilizó para estructurar la relación entre los objetivos estratégicos de comunicación en entornos sin conectividad, los User Personas definidos previamente (**Carlos Mamani**, agricultor en zona rural, y **María García**, jefa de brigada de emergencia), y las funcionalidades clave del sistema *OffGrid Messenger*. Este enfoque permitió asegurar que cada elemento desarrollado responda a necesidades reales y tenga un impacto directo en la solución del problema identificado.
+
+El trabajo realizado incluyó:
+
+- **Business Goals orientados a conectividad real y seguridad:** metas específicas y medibles enfocadas en mejorar la comunicación en zonas rurales y escenarios de emergencia, como reducir los tiempos de respuesta ante incidentes, aumentar la cobertura de comunicación sin internet y garantizar la privacidad de los mensajes mediante encriptación.
+
+- **Actores principales (User Personas):** Carlos Mamani, quien representa a usuarios en zonas rurales con acceso limitado a tecnología y conectividad, y María García, quien representa a equipos de emergencia que requieren comunicación confiable en situaciones críticas. Ambos actores fueron definidos considerando sus necesidades, comportamientos y limitaciones tecnológicas.
+
+- **Impactos esperados:** definidos como cambios en el comportamiento de los usuarios que contribuyen al logro de los objetivos del negocio. Por ejemplo, que Carlos utilice la aplicación para coordinar actividades sin necesidad de desplazarse físicamente, o que María pueda gestionar equipos de rescate en tiempo real sin depender de redes móviles tradicionales.
+
+- **Deliverables funcionales:** características del sistema diseñadas para generar dichos impactos, como la comunicación mediante LoRa, la conexión vía Bluetooth con dispositivos físicos, la mensajería encriptada, el almacenamiento local en SQLite y la interfaz simple e intuitiva.
+
+El Impact Mapping fue desarrollado bajo un enfoque centrado en el usuario, priorizando accesibilidad, confiabilidad y simplicidad. Se buscó que cada funcionalidad no solo sea técnicamente viable, sino que también responda directamente a los problemas identificados en los mapas de empatía y escenarios previos, garantizando coherencia entre el diseño del sistema y la realidad del usuario final.
+
+---
+
+## Business Goal 1
+
+**Permitir una comunicación confiable, segura y sin dependencia de internet en zonas rurales y escenarios de emergencia, mediante el uso de tecnología LoRa y conexión Bluetooth, mejorando la coordinación, reduciendo tiempos de respuesta y aumentando la seguridad de los usuarios en un periodo inicial de adopción de 6 meses.**
+
+Este objetivo representa el núcleo estratégico del proyecto, ya que aborda directamente el problema principal identificado: la falta de comunicación en entornos donde no existe cobertura de red. La solución propuesta no busca reemplazar los sistemas tradicionales, sino ofrecer una alternativa funcional en contextos donde estos fallan, como zonas rurales, áreas montañosas o situaciones de desastre.
+
+Desde una perspectiva operativa, este objetivo es medible a través de indicadores como el tiempo promedio de envío y recepción de mensajes, la tasa de éxito en la comunicación entre dispositivos, y la reducción en los tiempos de respuesta en situaciones de emergencia. Asimismo, se puede evaluar mediante la adopción del sistema por parte de usuarios en comunidades rurales o equipos de rescate.
+
+Este Business Goal se encuentra alineado con los comportamientos esperados de los actores definidos. Carlos Mamani podrá comunicarse con su familia o coordinar actividades agrícolas sin necesidad de desplazarse, lo que reduce costos y tiempo. Por otro lado, María García podrá gestionar operaciones de emergencia con mayor eficiencia, manteniendo comunicación constante incluso en ausencia de infraestructura de red.
+
+En este sentido, el objetivo no solo responde a una necesidad tecnológica, sino también social, ya que busca mejorar la calidad de vida de los usuarios y fortalecer la capacidad de respuesta ante situaciones críticas. La solución propuesta promueve un cambio en la forma en que las personas entienden la comunicación: pasando de depender completamente del internet, a utilizar redes descentralizadas adaptadas a su entorno.
+
+Finalmente, este objetivo impulsa la adopción de una tecnología accesible, confiable y segura, incentivando a los usuarios a confiar en el sistema y convertirlo en parte de su vida diaria o de sus operaciones críticas. De esta manera, el proyecto no solo entrega una herramienta, sino que propone una nueva forma de comunicación adaptada a realidades donde la conectividad tradicional no es suficiente.
+
+<img width="1715" height="589" alt="image" src="https://github.com/user-attachments/assets/d7992742-eef3-478f-8bb7-6dcb60144f89" />
+
+Link MiroBoard:https://miro.com/app/board/uXjVGh28bbM=/?share_link_id=225209259008
 
 ## 3.4 Product Backlog 
 
