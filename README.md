@@ -233,7 +233,7 @@ Para la realización del *User Task Matrix* consideramos las tareas y acciones f
 
 <img width="1600" height="515" alt="image" src="https://i.ibb.co/yFV4vFDY/carlos-mamani.jpg" />
 
-<img width="1600" height="515" alt="image" src="https://i.ibb.co/TD3YZHQX/maria-garcia.jpg />
+<img width="1600" height="515" alt="image" src="https://i.ibb.co/TD3YZHQX/maria-garcia.jpg" />
 
 ### 2.3.4. As-is Scenario Mapping
 
