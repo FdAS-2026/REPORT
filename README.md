@@ -37,6 +37,8 @@
 | **Renzo Paul Retuerto Zapata** | `u202320328` |
 | **Renzo Sebastián Uribe Livia** | `u202311745` |
 | **Oscar Leonardo Espinoza Quijandria** | `u202311842` |
+| **Landauri Preciado, Stephano Mayrzon** | `` |
+
 
 <br>
 
