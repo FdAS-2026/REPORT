@@ -1,18 +1,5 @@
-# Capítulo IV: Product Architecture Design
-
-En este capítulo el equipo aplica el método **ADD v3** (Attribute-Driven Design, versión 3) del Instituto de Ingeniería de Software (SEI) para definir la arquitectura del producto **OffGrid Messenger**. El objetivo es tomar decisiones arquitectónicas fundamentadas en los atributos de calidad y requerimientos identificados en los capítulos anteriores, garantizando una solución técnicamente sólida, escalable y alineada con el contexto de conectividad limitada o nula.
-
----
-
 ## 4.1 Design Concepts, ViewPoints & ER Diagrams
-
-Esta sección presenta los conceptos de diseño arquitectónico aplicados al sistema OffGrid Messenger. Se incluyen principios rectores, enfoques metodológicos, estilos arquitectónicos, diagramas de contexto, vistas de diseño, modelo de base de datos, patrones de diseño y tácticas de atributos de calidad. Todos los elementos se derivan de las decisiones tomadas a lo largo del proceso ADD v3 y se alinean con las restricciones del entorno offline-first basado en tecnología LoRa + ESP32 + Bluetooth.
-
----
-
 ### 4.1.1 Principles Statements
-
-Los principios arquitectónicos son guías fundamentales que orientan cada decisión de diseño. Se derivan de la visión del producto, los objetivos de negocio y las restricciones técnicas del entorno sin conectividad de OffGrid Messenger.
 
 | # | Principio | Descripción | Justificación |
 |---|-----------|-------------|---------------|
