@@ -73,8 +73,6 @@ La red de nodos LoRa no tiene servidor central. Cada nodo ESP32 actúa como emis
 
 ### 4.1.3 Context Diagram
 
-El diagrama de contexto del sistema (C4 – Nivel 1) muestra el sistema **OffGrid Messenger** y su relación con los actores externos y sistemas adyacentes. Representa el límite del sistema y las interacciones de alto nivel.
-
 ```mermaid
 graph TB
     U1["👤 Usuario Rural\n(Comunidades remotas)"]
@@ -365,8 +363,6 @@ graph TB
 
 ### 4.1.5 Relational/Non Relational Database Diagram
 
-OffGrid Messenger utiliza **SQLite con cifrado SQLCipher** como base de datos relacional local en el dispositivo móvil. Esta elección responde a los principios P-01 (Offline-First) y P-06 (Persistencia local primero): no existe servidor de base de datos externo, todos los datos persisten en el dispositivo del usuario.
-
 **Justificación del modelo relacional:**
 - Los datos tienen estructura bien definida y relaciones claras (mensajes → conversaciones → usuarios).
 - SQLite es nativo en Android e iOS, sin dependencias adicionales.
@@ -469,8 +465,6 @@ erDiagram
 
 ### 4.1.6 Design Patterns
 
-Los siguientes patrones de diseño se aplican en la arquitectura de OffGrid Messenger para resolver problemas recurrentes de manera probada y mantenible:
-
 | # | Patrón | Categoría | Contexto de aplicación en OffGrid Messenger |
 |---|--------|-----------|----------------------------------------------|
 | DP-01 | **Repository Pattern** | Acceso a datos | `MessageRepository`, `ConversationRepository`, `UserRepository` y `ContactRepository` abstraen el acceso a SQLite. El dominio interactúa con interfaces, no con SQL directamente. Facilita el testing con repositorios en memoria. |
@@ -487,8 +481,6 @@ Los siguientes patrones de diseño se aplican en la arquitectura de OffGrid Mess
 ---
 
 ### 4.1.7 Tactics
-
-Las tácticas arquitectónicas son decisiones de diseño que permiten lograr los atributos de calidad (Quality Attribute Requirements – QARs) identificados a partir de los Lean UX Assumptions y los Technical Stories del proyecto. Se organizan según el estándar ADD v3 del SEI.
 
 #### Disponibilidad (Availability)
 
